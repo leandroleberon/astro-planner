@@ -74,6 +74,12 @@ body{
     font-size: 25px;
     color: white;
     padding: 0px 30px;
+    transition: color .2s ease;
+}
+
+.navbar-col a:hover{
+    text-decoration: none;
+    color: rgb(184, 184, 184);
 }
 
 #home-phones{
@@ -227,7 +233,7 @@ body{
     width: 70%;
     margin: auto;
     height: auto;
-    padding-top: 200px;
+    padding-top: 150px;
     min-width: 800px;
 }
 
@@ -281,7 +287,7 @@ body{
     position: absolute;
     height: 15px;
     width: 44%;
-    top: 75%;
+    top: 69%;
     background-color: #88A2B8;
     border-radius: 10px;
 }
@@ -314,10 +320,11 @@ body{
     font-weight: 400;
     margin-top: 20px;
     color: white;
-    transition: color .3s ease;
+    transition: color .2s ease;
 }
 
 .docs-box a:hover{
+    text-decoration: none;
     color: rgb(177, 177, 177);
 }
 
