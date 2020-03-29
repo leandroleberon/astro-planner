@@ -308,12 +308,17 @@ body{
     width: 80px;
 }
 
-.docs-box h2{
+.docs-box a{
     font-family: "Open Sans", sans-serif;
     font-size: 25px;
     font-weight: 400;
     margin-top: 20px;
     color: white;
+    transition: color .3s ease;
+}
+
+.docs-box a:hover{
+    color: rgb(177, 177, 177);
 }
 
 /* --------- Contact Section --------- */
