@@ -17,6 +17,7 @@ body{
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
+    padding-top: 30px;
 }
 
 #about{
@@ -43,6 +44,7 @@ body{
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
+    padding-top: 200px;
 }
 
 #docs{
@@ -52,6 +54,7 @@ body{
     min-height: 40vh;
     height: auto;
     background-color: #3C5570;
+    padding-top: 30px;
 }
 
 #contact{
@@ -65,11 +68,6 @@ body{
 
 
 /* --------- Home Section --------- */
-
-.navbar-col{
-    padding: 20px 0px;
-}
-
 .navbar-col a{
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
@@ -77,3 +75,127 @@ body{
     color: white;
     padding: 0px 30px;
 }
+
+#home-phones{
+    position: absolute;
+    top: 18%;
+    right: 20%;
+    width: 600px;
+    min-height: 700px;
+}
+
+#home-phone1{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 55%;
+    left: 15%;
+    height: 500px;
+}
+
+#home-phone1 img{
+    height: 110%;
+}
+
+#home-phone2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 500px;
+}
+
+#home-phone2 img{
+    height: 110%;
+}
+
+#home-content{
+    width: 50%;
+    height: auto;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.home-col h1{
+    font-family: "Righteous", cursive;
+    font-size: 80px;
+    color: white;
+}
+
+.home-col p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+.home-col a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    border: solid white 2px;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+/* --------- About Section --------- */
+#about-content{
+    width: 50%;
+    height: auto;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.about-col{
+    min-width: 250px;
+    margin: auto;
+}
+
+.about-box{
+    width: 100%;
+}
+
+.about-box img{
+    width: 100px;
+}
+
+.about-box h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#about-phones{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    width: 600px;
+    min-height: 700px;
+}
+
+#about-phone1{
+    position: absolute;
+    top: 0;
+    left: 7%;
+    height: 500px;
+}
+
+#about-phone1 img{
+    height: 130%;
+}
+
+#about-phone2{
+    position: absolute;
+    top: 8%;
+    right: 0;
+    height: 500px;
+}
+
+#about-phone2 img{
+    height: 110%;
+}
+
+/* --------- Development Section --------- */
+
+/* --------- Documents Section --------- */
+
+
+/* --------- Contact Section --------- */
